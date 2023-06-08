@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500;600&display=swap');
+
+:root{
+  /*fonts*/
+  --font-family: "Pacifico" ,sans-serif;
+  --font-size: 16px;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: var(--font-family);
+}
+
+body{
+background-image: url(./images/cartoon-background-camping.jpg);
+background-size:cover;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+}
+.containerLogin {
+  display: grid;
+  border: 0px;
+  background-color: #0e1551;
+  border-radius: 25px;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%,-50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0px 0px 50px var(--Dark-Slate-Grey);
+  text-align: center;
+  justify-content: center;
+}
+
+#loginMsg{
+ color: #b3b2b7;
+ text-align: center;
+ margin-top: 70px;
+ font-size: 52px;
+ letter-spacing: 2px;
+}
+#inputEmail{
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #b3b2b7;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: 0px;
+  margin-bottom:20px
+}
+#inputPassword{
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #b3b2b7;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: 0px;
+  margin-bottom:20px
+}
+#log{
+  display: inline;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(120, 16, 224);
+  color: white;
+  letter-spacing: 1px;
+  border: 0px;
+  cursor: pointer;
+ }
+  #log:hover {background-color: #3e8e41}
